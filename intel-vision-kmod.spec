@@ -3,15 +3,15 @@
 %global debug_package %{nil}
 %endif
 
-%global commit a8d772f261bc90376944956b7bfd49b325ffa2f2
-%global tags WW46.3_25_ptl_pv
+%global commit 2b50538e73bda90c078d75008e5a06180acee3fa
+%global tags 26WW19.4_NVL
 
 %global prjname vision-drivers
 %global pkgname intel-vision
 
 Name:           %{pkgname}-kmod
 Summary:        Kernel module (kmod) for %{pkgname}
-Version:        2025112.WW46.3_25_ptl_pv
+Version:        2026061.26WW19.4_NVL
 Release:        3%{?dist}
 License:        GPL-2.0-or-later
 
@@ -65,6 +65,9 @@ done
 
 
 %changelog
+* Fri Jun 26 2026 Pierre PINON <pierre@pinon1.fr> - 26WW19.4_NVL
+- Update to 26WW19.4_NVL
+
 * Tue Dec 30 2025 Kate Hsuan <hpa@redhat.com> - 2025112.WW46.3_25_ptl_pv-3
 - Update ExclusiveArch
 
