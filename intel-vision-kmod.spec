@@ -3,16 +3,16 @@
 %global debug_package %{nil}
 %endif
 
-%global commit a8d772f261bc90376944956b7bfd49b325ffa2f2
-%global tags WW46.3_25_ptl_pv
+%global commit 845d6f8bdf66ff1f455901da9de5e00a53a83dce
+%global tags 26WW19.4_NVL
 
 %global prjname vision-drivers
 %global pkgname intel-vision
 
 Name:           %{pkgname}-kmod
 Summary:        Kernel module (kmod) for %{pkgname}
-Version:        2025112.WW46.3_25_ptl_pv
-Release:        4%{?dist}
+Version:        20260507.26WW19.4_NVL
+Release:        1%{?dist}
 License:        GPL-2.0-or-later
 
 URL:            https://github.com/intel/vision-drivers
@@ -65,6 +65,9 @@ done
 
 
 %changelog
+* Sat Sep 26 2026 Sérgio Basto <sergio@serjux.com> - 20260507.26WW19.4_NVL-1
+- Update to 26WW19.4_NVL
+
 * Sun Aug 02 2026 RPM Fusion Release Engineering <leigh123linux@rpmfusion.org> - 2025112.WW46.3_25_ptl_pv-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_45_Mass_Rebuild
 
